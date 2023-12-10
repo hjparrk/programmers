@@ -3,5 +3,11 @@ class Solution {
         String answer = "";
         for(char c : my_string.toCharArray()) answer = c + answer;
         return answer;
+        
+//         StringBuilder sb = new StringBuilder();
+//         sb.append(my_string);
+//         sb.reverse();
+
+//         return sb.toString();
     }
 }
