@@ -5,9 +5,6 @@ class Solution {
     }
     
     public int solution(int n) {
-        
-        int gcd = getGCD(n, 6);
-        
-        return n / gcd;
+        return n / getGCD(n, 6);
     }
 }
